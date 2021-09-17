@@ -17,7 +17,7 @@ h1{
   }
 }
 
-.zoom-in-and-out{
+.zoom-in-and-out {
   animation: zoom-in-and-out 2s ease-out infinite;
 }
 @keyframes zoom-in-and-out {
@@ -32,7 +32,7 @@ h1{
   }
 }
 
-.blink{
+.blink {
   animation: blinker 1s linear infinite
 }
 @keyframes blinker {
