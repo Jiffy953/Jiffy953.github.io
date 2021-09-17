@@ -18,15 +18,13 @@ h1{
 }
 
 .zoom-in-and-out {
-  animation: zoom-in-and-out 2s ease-out infinite;
+  animation: zoom-in-and-out 1s ease-out infinite;
 }
 @keyframes zoom-in-and-out {
   0% {
     transform: scale(1, 1);
   }
-  50% {
-    transform: scale(1.5, 1.5);
-  }
+
   100% {
     transform: scale(1, 1);
   }
