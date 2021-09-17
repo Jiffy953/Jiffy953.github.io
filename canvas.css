@@ -33,9 +33,9 @@ h1{
 }
 
 .blink{
-  animation: blink 1s linear infinite
+  animation: blinker 1s linear infinite
 }
-@keyframes blink {
+@keyframes blinker {
   50%{
     opacity: 0;
   }
