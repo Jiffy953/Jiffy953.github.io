@@ -5,8 +5,7 @@ h1{
   color: red;
 }
 
-
-/*img.rotate {
+img.rotate {
   animation: rotation 8s infinite linear;
 }
 @keyframes rotation {
@@ -17,4 +16,3 @@ h1{
     transform: rotate(359deg);
   }
 }
-*/
