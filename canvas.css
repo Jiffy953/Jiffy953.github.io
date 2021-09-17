@@ -3,11 +3,10 @@ body {
 }
 h1{
   color: red;
-  text-align: right;
 }
 
 
-img.rotate {
+/*img.rotate {
   animation: rotation 8s infinite linear;
 }
 @keyframes rotation {
@@ -18,3 +17,4 @@ img.rotate {
     transform: rotate(359deg);
   }
 }
+*/
