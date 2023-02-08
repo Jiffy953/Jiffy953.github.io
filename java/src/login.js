@@ -13,7 +13,7 @@ element.addEventListener("click", loginButton);
 function loginButton() 
 {
     var client_id = 'd497ce9d1c024b0e89b504b0a79d3926'; // Your client id
-    var redirect_uri = 'https://www.spotifytogether.com/'; // Your redirect uri
+    var redirect_uri = 'https://www.spotifytogether.com/home.html'; // Your redirect uri
 
     var state = generateRandomString(16);
     var stateKey = 'spotify_auth_state';
