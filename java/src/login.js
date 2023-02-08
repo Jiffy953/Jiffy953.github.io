@@ -7,7 +7,7 @@ var generateRandomString = function(length) {
     }
     return text;
   };
-  
+
 const element = document.getElementById("loginButton");
 element.addEventListener("click", loginButton);
 function loginButton() 
@@ -16,6 +16,7 @@ function loginButton()
     var redirect_uri = 'https://www.spotifytogether.com/'; // Your redirect uri
 
     var state = generateRandomString(16);
+    var stateKey = 'spotify_auth_state';
 
     localStorage.setItem(stateKey, state);
     var scope = 'user-read-private user-read-email';
